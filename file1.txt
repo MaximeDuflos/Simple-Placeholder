@@ -1,0 +1,5 @@
+C'est un outil de bas niveau[réf. souhaitée], qui se veut simple et performant, dont la principale tâche est de gérer l'évolution du contenu d'une arborescence.
+
+Git indexe les fichiers d'après leur somme de contrôle calculée avec la fonction de hachage SHA-1. Quand un fichier n'est pas modifié, la somme de contrôle ne change pas et le fichier n'est stocké qu'une seule fois. En revanche, si le fichier est modifié, les deux versions sont stockées sur le disque.
+
+Git n'était pas, au départ, à proprement parler un logiciel de gestion de versions. Linus Torvalds expliquait que, « par bien des aspects, vous pouvez considérer Git comme un système de fichiers : il permet un adressage associatif, et possède la notion de versionnage, mais surtout, a été conçu en résolvant le problème du point de vue d'un spécialiste des systèmes de fichiers. Il n'y avait donc aucun intérêt à créer un système de gestion de version traditionnel. ». 
